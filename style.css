@@ -20,6 +20,12 @@ h1{
     justify-content: center;
     align-items: center;
 }
+@media screen and (max-width: 767px) {
+    div.choice {
+        height: 110px;
+    }
+  }
+
 .choice:hover{
     background-color: black;
 }
@@ -29,6 +35,13 @@ img{
     object-fit: cover;
     border-radius: 50%;
 }
+@media screen and (max-width: 767px) {
+    img {
+        height: 90px;
+    width:  90px;
+
+    }
+  }
 .choices{
     display: flex;
     justify-content: center;
@@ -58,3 +71,9 @@ img{
     padding: 1rem;
     border-radius: 1rem;
 }
+
+@media screen and (max-width: 767px) {
+    #msg {
+        font-size: 1rem;
+    }
+  }
